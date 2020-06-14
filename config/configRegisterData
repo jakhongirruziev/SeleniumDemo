@@ -1,0 +1,13 @@
+email=someTestEmail10@gmail.com
+firstName=testFirstName
+lastName=testLastName
+password=test123
+days=1
+months=January
+years=2020
+address=testStreet
+city=testCity
+state=New York
+zip=10001
+country=United States
+phone=+1 518-285-2360
