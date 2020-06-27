@@ -10,7 +10,7 @@
 
 <h1>Selenium Demo test </h1>
 <p align="center">
-<img src="demo.gif" height="500"> 
+<img src="demo.gif" height="100"> 
 </p>
 
 <h1> Generated report </h1>
