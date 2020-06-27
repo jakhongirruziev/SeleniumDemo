@@ -56,7 +56,7 @@
           </li>
             <li class="m-r-10">
                 <a href="#">
-                    <span class="badge badge-primary">May 27, 2020 02:23:00 PM</span>
+                    <span class="badge badge-primary">Jun 27, 2020 05:54:45 PM</span>
                 </a>
             </li>
         </ul>
@@ -100,8 +100,8 @@
 					<i class="fa fa-exclamation-circle"></i>
 					</a>
 					<ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+						<a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success pull-right"></span></a>
 						
-						<a class="dropdown-item" status="fail" href="#"><span>Fail</span><span class="status danger pull-right"></span></a>
 						
 						
 						
@@ -114,28 +114,28 @@
 		</div>
 		<div class="test-list-wrapper scrollable">
 			<ul class="test-list-item">
-				<li class="test-item"  status="fail" test-id="1"
+				<li class="test-item"  status="pass" test-id="1"
 					author=""
 					tag=""
 					device="">
-					<div class="status-avatar fail-bg">
-						<i class="fa fa-times text-white"></i>
+					<div class="status-avatar pass-bg">
+						<i class="fa fa-check text-white"></i>
 					</div>
 					<div class="open-test">
 						<div class="test-detail">
-							<p class="name">Sign in - Negative case</p>
-							<p class="duration text-sm">0h 0m 5s+474ms</p>
-							<span class="datetime">14:23:01 PM</span>
+							<p class="name">Sign in - Positive case</p>
+							<p class="duration text-sm">0h 0m 8s+110ms</p>
+							<span class="datetime">17:54:45 PM</span>
 						</div>
 					</div>
 					<div class="test-contents d-none">
 						<div class="detail-head">
 							<div class="p-v-10 d-inline-block">
 								<div class="info">
-									<h5 class="test-status text-fail">Sign in - Negative case</h5>
-									<span class='badge badge-success'>05.27.2020 14:23:01</span>
-									<span class='badge badge-danger'>05.27.2020 14:23:06</span>
-									<span class='badge badge-default'>0h 0m 5s+474ms</span>
+									<h5 class="test-status text-pass">Sign in - Positive case</h5>
+									<span class='badge badge-success'>06.27.2020 17:54:45</span>
+									<span class='badge badge-danger'>06.27.2020 17:54:54</span>
+									<span class='badge badge-default'>0h 0m 8s+110ms</span>
 								</div>
 								<div class="m-t-10 m-l-5">
 									
@@ -152,17 +152,37 @@
 	<tbody>
 			<tr class="event-row">
 				<td><i class="fa fa-check text-pass"></i></td>
-				<td>2:23:06 PM</td>
+				<td>5:54:51 PM</td>
 				<td>
 						Navigates to sign in page
 				</td>
 			</tr>
 			<tr class="event-row">
-				<td><i class="fa fa-times text-fail"></i></td>
-				<td>2:23:06 PM</td>
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>5:54:51 PM</td>
 				<td>
-						expected [Jay] but found [Login - My Store]
-						<img class='r-img' onerror='this.style.display="none"' data-featherlight='1590571386123.png' src='1590571386123.png'>
+						Enters valid Email
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>5:54:51 PM</td>
+				<td>
+						Enters valid Password
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>5:54:54 PM</td>
+				<td>
+						Hits sign in button
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>5:54:54 PM</td>
+				<td>
+						Verified sign in
 				</td>
 			</tr>
 	</tbody>
@@ -170,28 +190,28 @@
 </div>
 					</div>
 				</li>
-				<li class="test-item"  status="fail" test-id="2"
+				<li class="test-item"  status="pass" test-id="2"
 					author=""
 					tag=""
 					device="">
-					<div class="status-avatar fail-bg">
-						<i class="fa fa-times text-white"></i>
+					<div class="status-avatar pass-bg">
+						<i class="fa fa-check text-white"></i>
 					</div>
 					<div class="open-test">
 						<div class="test-detail">
-							<p class="name">Sign in - Negative case</p>
-							<p class="duration text-sm">0h 0m 2s+507ms</p>
-							<span class="datetime">14:23:06 PM</span>
+							<p class="name">Shopping cart - Add products</p>
+							<p class="duration text-sm">0h 0m 10s+49ms</p>
+							<span class="datetime">17:54:54 PM</span>
 						</div>
 					</div>
 					<div class="test-contents d-none">
 						<div class="detail-head">
 							<div class="p-v-10 d-inline-block">
 								<div class="info">
-									<h5 class="test-status text-fail">Sign in - Negative case</h5>
-									<span class='badge badge-success'>05.27.2020 14:23:06</span>
-									<span class='badge badge-danger'>05.27.2020 14:23:09</span>
-									<span class='badge badge-default'>0h 0m 2s+507ms</span>
+									<h5 class="test-status text-pass">Shopping cart - Add products</h5>
+									<span class='badge badge-success'>06.27.2020 17:54:54</span>
+									<span class='badge badge-danger'>06.27.2020 17:55:04</span>
+									<span class='badge badge-default'>0h 0m 10s+49ms</span>
 								</div>
 								<div class="m-t-10 m-l-5">
 									
@@ -208,17 +228,141 @@
 	<tbody>
 			<tr class="event-row">
 				<td><i class="fa fa-check text-pass"></i></td>
-				<td>2:23:08 PM</td>
+				<td>5:54:58 PM</td>
 				<td>
-						Navigates to sign in page
+						Navigates to home page
 				</td>
 			</tr>
 			<tr class="event-row">
-				<td><i class="fa fa-times text-fail"></i></td>
-				<td>2:23:09 PM</td>
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>5:54:58 PM</td>
 				<td>
-						expected [Jay] but found [Login - My Store]
-						<img class='r-img' onerror='this.style.display="none"' data-featherlight='1590571388723.png' src='1590571388723.png'>
+						Selects product number: 1
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>5:55:00 PM</td>
+				<td>
+						Hits add to cart button
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>5:55:02 PM</td>
+				<td>
+						Hits cross button
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>5:55:02 PM</td>
+				<td>
+						Verified adding products to cart
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>5:55:02 PM</td>
+				<td>
+						Adds 1 product(s) to cart
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>5:55:04 PM</td>
+				<td>
+						Navigates to checkout page
+				</td>
+			</tr>
+	</tbody>
+</table>
+</div>
+					</div>
+				</li>
+				<li class="test-item"  status="pass" test-id="3"
+					author=""
+					tag=""
+					device="">
+					<div class="status-avatar pass-bg">
+						<i class="fa fa-check text-white"></i>
+					</div>
+					<div class="open-test">
+						<div class="test-detail">
+							<p class="name">Payment test</p>
+							<p class="duration text-sm">0h 0m 8s+347ms</p>
+							<span class="datetime">17:55:04 PM</span>
+						</div>
+					</div>
+					<div class="test-contents d-none">
+						<div class="detail-head">
+							<div class="p-v-10 d-inline-block">
+								<div class="info">
+									<h5 class="test-status text-pass">Payment test</h5>
+									<span class='badge badge-success'>06.27.2020 17:55:04</span>
+									<span class='badge badge-danger'>06.27.2020 17:55:12</span>
+									<span class='badge badge-default'>0h 0m 8s+347ms</span>
+								</div>
+								<div class="m-t-10 m-l-5">
+									
+								</div>
+							</div>
+						</div>
+<div class="detail-body mt-4">                                              
+<table class="table table-sm">
+	<thead><tr>
+		<th class="status-col">Status</th>
+		<th class="timestamp-col">Timestamp</th>
+		<th class="details-col">Details</th>
+	</tr></thead>
+	<tbody>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>5:55:05 PM</td>
+				<td>
+						Proceeds to address
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>5:55:07 PM</td>
+				<td>
+						Proceeds to shipping
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>5:55:07 PM</td>
+				<td>
+						Checks agree
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>5:55:09 PM</td>
+				<td>
+						Proceeds to payment
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>5:55:10 PM</td>
+				<td>
+						Hits Pay Bank Wire payment type
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-check text-pass"></i></td>
+				<td>5:55:12 PM</td>
+				<td>
+						Hits confirm order button
+				</td>
+			</tr>
+			<tr class="event-row">
+				<td><i class="fa fa-info text-info"></i></td>
+				<td>5:55:12 PM</td>
+				<td>
+						Verified payment
 				</td>
 			</tr>
 	</tbody>
@@ -257,12 +401,12 @@
 					</div>
 				</div>
 				<div class="card-footer">
-					<div><small data-tooltip='0%'>
-						<b>0</b> tests passed
+					<div><small data-tooltip='100%'>
+						<b>3</b> tests passed
 						</small>
 					</div>
 					<div>
-						<small data-tooltip='100%'><b>2</b> tests failed, 
+						<small data-tooltip='0%'><b>0</b> tests failed, 
 						<b>0</b> skipped, <b data-tooltip='0%'>0</b> others
 						</small>
 					</div>
@@ -280,10 +424,10 @@
 					</div>
 				</div>
 				<div class="card-footer">
-					<div><small data-tooltip='50%'><b>2</b> events passed</small></div>
+					<div><small data-tooltip='84.211%'><b>16</b> events passed</small></div>
 					<div>
-						<small data-tooltip='50%'><b>2</b> events failed, 
-						<b data-tooltip='0%'>0</b> others
+						<small data-tooltip='0%'><b>0</b> events failed, 
+						<b data-tooltip='15.789%'>3</b> others
 						</small>
 					</div>
 				</div>
@@ -297,10 +441,10 @@
 					<div class="media justify-content-between">
 						<div class="card-header">
 							<h6 class="card-title">Tests</h6>
-							<h2 class="font-size-28 font-weight-light mt-3">2</h2>
+							<h2 class="font-size-28 font-weight-light mt-3">3</h2>
 							<span class="text-semibold text-success font-size-15">
 							<i class="ti-arrow-up font-size-11"></i> 
-							<span>.00%</span>
+							<span>100.00%</span>
 							</span>
 						</div>
 						<div class="align-self-end">
@@ -316,7 +460,7 @@
 					<div class="media justify-content-between">
 						<div class="card-header">
 							<h6 class="card-title">Start</h6>
-							<h4 class="font-weight-light mt-4">May 27, 2020 02:23:00 PM</h4>
+							<h4 class="font-weight-light mt-4">Jun 27, 2020 05:54:45 PM</h4>
 							<span class="text-semibold text-success font-size-15">
 						</div>
 						<div class="align-self-end">
@@ -332,7 +476,7 @@
 					<div class="media justify-content-between">
 						<div class="card-header">
 							<h6 class="card-title">Duration</h6>
-							<h4 class="font-weight-light mt-4">0h 0m 8s+724ms</h4>
+							<h4 class="font-weight-light mt-4">0h 0m 26s+736ms</h4>
 							<span class="text-semibold font-size-15">
 						</div>
 						<div class="align-self-end">
@@ -362,14 +506,14 @@
 </div>
 <script>
 	var statusGroup = {
-	    parentCount: 2,
-		passParent: 0,
-		failParent: 2,
+	    parentCount: 3,
+		passParent: 3,
+		failParent: 0,
 		fatalParent: 0,
 		errorParent: 0,
 		warningParent: 0,
 		skipParent: 0,
-		exceptionsParent: 2,
+		exceptionsParent: 0,
 		childCount: 0,
 		passChild: 0,
 		failChild: 0,
@@ -390,21 +534,21 @@
 		infoGrandChild: 0,
 		debugGrandChild: 0,
 		exceptionsGrandChild: 0,
-		eventsCount: 4,
-		passEvents: 2,
-		failEvents: 2,
+		eventsCount: 19,
+		passEvents: 16,
+		failEvents: 0,
 		fatalEvents: 0,
 		errorEvents: 0,
 		warningEvents: 0,
 		skipEvents: 0,
-		infoEvents: 0,
+		infoEvents: 3,
 		debugEvents: 0,
 		exceptionsEvents: 0
 	};
 </script>
 <script>
 	var timeline = {
-	        "Sign in - Negative case":5.474,"Sign in - Negative case":2.507
+	        "Sign in - Positive case":8.11,"Shopping cart - Add products":10.049,"Payment test":8.347
 	};
 </script>
                 </div>
