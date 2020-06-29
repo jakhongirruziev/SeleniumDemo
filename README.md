@@ -8,10 +8,10 @@
 <img src="https://img.shields.io/badge/ Test - Parallel - Red">
 </p>
 
-<h1>Selenium Demo test </h1>
+# Selenium Demo test 
 <p align="center">
 <img src="demo.gif" height="380"> 
 </p>
 
-<h1> Generated report </h1>
+# Generated report
 <img src="report.png">
