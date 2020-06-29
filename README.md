@@ -4,7 +4,7 @@
 <img src="https://img.shields.io/badge/ Framework - TestNG - Orange">
 <img src="https://img.shields.io/badge/ Report - Extent Reports - Blue">
 <img src="https://img.shields.io/badge/ Read Excel - POI XML - Pink">
-<img src="https://img.shields.io/badge/ Test - Data Driven - Purple">
+<img src="https://img.shields.io/badge/ Method - Data Driven - Purple">
 <img src="https://img.shields.io/badge/ Test - Parallel - Red">
 </p>
 
